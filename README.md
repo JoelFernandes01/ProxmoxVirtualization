@@ -12,15 +12,15 @@ Nesta atividade prática devemos, instalar e configurar e uma infraestrutura com
 
 ## Tarefas:
 
-**Remover a mensagem "no valid subscription"** : 
-Edite o arquivo "proxmoxlib.js"
-#nano /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
-Localize a linha 563 onde tem " if (res === null || res === undefined || !res || res
-                 564                .data.status.toLowerCase() !== 'active'){
-                 565                Ext.Msg.show({ restante do código
-Substitua por apenas if (false) {
-                 564    Ext.Msg.show({ restante do código
-Reinicie o servidor e pronto, a mensagem não aparecerá mais 
+**Remover a mensagem "no valid subscription"**<br>
+<br>Edite o arquivo "proxmoxlib.js"</br>
+<br>#nano /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js</br>
+<br>Localize a linha 563 onde tem " if (res === null || res === undefined || !res || res</br>
+<br>                 564                .data.status.toLowerCase() !== 'active'){</br>
+<br>                 565                Ext.Msg.show({ restante do código</br>
+<br>Substitua por apenas if (false) {</br>
+<br>                 564    Ext.Msg.show({ restante do código</br>
+<br>Reinicie o servidor e pronto, a mensagem não aparecerá mais</br>
 
 1. **Instalar e configurar a solução** : Iremos baixar, instalar e configurar a solução dentro do Virtualbox.
 
