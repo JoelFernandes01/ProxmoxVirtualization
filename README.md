@@ -35,5 +35,5 @@ Nesta atividade prática devemos, instalar e configurar e uma infraestrutura com
 ![Documentação da Solução]()
 <br>https://www.proxmox.com/en/services/support#support-resources)</br>
 
-![Dicas Diversas]()
+![Remover mensagem "No valid subscription"]()
 <br>https://www.youtube.com/watch?v=ulP2-OjFD9Y</br>
